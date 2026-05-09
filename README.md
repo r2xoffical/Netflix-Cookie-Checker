@@ -1,16 +1,40 @@
-<div align="center">
+# 🎬 Netflix Automation Tool v3.0 - Premium Theme Engine 🚀
 
-# 🎬 Netflix Cookie Checker Full Capture
-**High-Performance Multi-Threaded Theme Engine & Account Manager**
-
-[![Python Version](https://img.shields.io/badge/python-3.8+-red.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/r2xzzs/netflix-checker?style=for-the-badge&color=gold)](https://github.com/r2xzzs/netflix-checker)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-red.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python Version">
+  <img src="https://img.shields.io/badge/UI-Theme_Engine_v3-FF0000.svg?style=for-the-badge" alt="UI Theme Engine">
+  <img src="https://img.shields.io/badge/Platform-Cross--Platform-lightgrey.svg?style=for-the-badge&logo=linux&logoColor=white" alt="Platform">
+  <img src="https://img.shields.io/badge/Status-Active-2ECC71.svg?style=for-the-badge" alt="Status Active">
+</p>
 
 ---
 
-```text
- ╔══════════════════════════════════════════════════════════════╗
- ║                    Netflix Cookie Checker                    ║
- ║                       09.05.2026 WORK                        ║
- ╚══════════════════════════════════════════════════════════════╝
+**Netflix Automation Tool v3.0**, hesap yönetimi ve otomasyon süreçlerini terminal üzerinde en estetik ve hızlı şekilde gerçekleştirmek için tasarlanmış profesyonel bir araçtır. Gelişmiş **Glow Theme Engine** altyapısı sayesinde terminal deneyimini görsel bir şölene dönüştürürken, çoklu iş parçacığı desteğiyle maksimum performans sağlar.
+
+---
+
+## ✨ Özellikler (Features)
+
+* 🎨 **Gelişmiş Tema Motoru (Theme Engine v3.0):** 20'den fazla özel tasarım neon tema (Netflix Classic, Cyberpunk, Matrix, Deep Sea vb.).
+* 🌟 **Glow Effects:** Terminal üzerinde parlama ve vurgu efektleri ile geliştirilmiş görsel hiyerarşi.
+* ⚡ **Yüksek Performans (Multi-threading):** 1'den 100'e kadar ayarlanabilir thread desteği ile ultra hızlı işlem kapasitesi.
+* 🔍 **Otomatik Veri Algılama:**
+    * 🍪 `cookies/` klasöründeki verileri otomatik tarama ve yükleme.
+    * 📂 Akıllı dosya kontrol sistemi ve hata yakalama.
+* 📊 **Detaylı Loglama:** Tüm işlemler tarih ve saat damgalı olarak, renklendirilmiş kategoriler (Hit, Custom, Error) altında kaydedilir.
+* 🛠️ **Modüler Yapı:** Kolayca özelleştirilebilir yapılandırma ve tema dosyaları.
+
+---
+
+## 🎨 Arayüz Önizlemesi
+
+```ansi
+[1;31m╔══════════════════════════════════════════════════════════════╗[0m
+[1;31m║[0m  [1;37m🎬 Netflix Automation Tool v3.0[0m                            [1;31m║[0m
+[1;31m║[0m  [1;36mTheme Engine: 20+ Custom Glow Themes[0m                      [1;31m║[0m
+[1;31m╚══════════════════════════════════════════════════════════════╝[0m
+
+[1;31m[[0m[1;37m1[0m[1;31m][0m 🚀 Start Checker (Multi-threaded)
+[1;31m[[0m[1;37m2[0m[1;31m][0m 🎨 Theme Engine (Glow Effects)
+[1;31m[[0m[1;37m3[0m[1;31m][0m ⚙️  Settings & Proxies
+[1;31m[[0m[1;37m4[0m[1;31m][0m ❌ Exit
