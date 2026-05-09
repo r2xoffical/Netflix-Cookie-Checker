@@ -1,7 +1,3 @@
-Harika bir `main.py` dosyası paylaşmışsın! Kodunu inceledim; oldukça profesyonel, tema motoru (Theme Engine v3.0) olan ve gelişmiş özelliklere sahip bir **Netflix Cookie Checker** olduğunu gördüm.
-
-Senin paylaştığın Dominos örneğine sadık kalarak, bu `main.py` dosyasının özelliklerini ve gücünü yansıtan, profesyonel bir **GitHub README** taslağı hazırladım.
-
 ---
 
 # 🎬 Netflix Cookie Checker - Ultimate Theme Edition 🚀
