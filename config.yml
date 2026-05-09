@@ -1,0 +1,70 @@
+# ╔══════════════════════════════════════════════════════╗
+# ║         🎬 Netflix Cookie Checker Yapılandırması      ║
+# ║                   Config By @r2xzzs                  ║
+# ╚══════════════════════════════════════════════════════╝
+
+# ─────────────────────────────────────────────────────────
+# TXT ALANLARI: Çıktı dosyasında hangi bilgiler görünsün?
+#   true  = göster
+#   false = gizle
+# ─────────────────────────────────────────────────────────
+txt_fields:
+  name: true               # hesap sahibi adı
+  email: true              # hesap e-postası
+  plan: true               # plan adı (Premium, Standard vb.)
+  country: true            # ülke kodu
+  member_since: true       # üyelik başlangıç tarihi
+  quality: true            # video kalitesi (HD, UHD vb.)
+  max_streams: true        # maksimum eş zamanlı ekran
+  next_billing: true       # sonraki fatura tarihi
+  payment_method: true     # ödeme yöntemi türü
+  card: true               # kart sonu (sadece CC ise görünür)
+  phone: true              # telefon numarası
+  hold_status: true        # hesap askı durumu
+  extra_members: true      # ekstra üye özelliği var mı
+  email_verified: true     # e-posta doğrulanmış mı
+  membership_status: true  # üyelik durumu (CURRENT_MEMBER vb.)
+  profiles: true           # profil isimleri
+  user_guid: true          # kullanıcı GUID
+
+# ─────────────────────────────────────────────────────────
+# NFTOken: Giriş linki üretilsin mi?
+#   true  = üret (PC + Mobil link)
+#   false = üretme
+# ─────────────────────────────────────────────────────────
+nftoken: true
+
+# ─────────────────────────────────────────────────────────
+# BİLDİRİMLER
+# ─────────────────────────────────────────────────────────
+notifications:
+
+  # Discord Webhook Ayarları
+  webhook:
+    enabled: false          # true = Discord'a gönder
+    url: ""                 # Webhook URL'ini buraya yaz
+    mode: "full"            # full | cookie | nftoken
+    plans: "all"            # all veya: ["premium", "standard", "basic", "mobile", "free"]
+
+  # Telegram Bot Ayarları
+  telegram:
+    enabled: false          # true = Telegram'a gönder
+    bot_token: ""           # @BotFather'dan aldığın token
+    chat_id: ""             # Kanal/grup ID (örn: -1001234567890)
+    mode: "full"            # full | cookie | nftoken
+    plans: "all"            # all veya: ["premium", "standard", "basic", "mobile", "free"]
+
+# ─────────────────────────────────────────────────────────
+# GÖRÜNTÜLEME MODU
+#   simple = Canlı dashboard (önerilen)
+#   log    = Satır satır log
+# ─────────────────────────────────────────────────────────
+display:
+  mode: "simple"
+
+# ─────────────────────────────────────────────────────────
+# YENİDEN DENEME AYARLARI
+# ─────────────────────────────────────────────────────────
+retries:
+  error_proxy_attempts: 3  # proxy/ağ hatasında kaç kez tekrar denensin
+  nftoken_attempts: 1      # NFToken oluşturma için kaç deneme yapılsın
