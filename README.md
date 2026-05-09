@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎬 Netflix Automation Tool v3.0
+# 🎬 Netflix Cookie Checker Full Capture
 **High-Performance Multi-Threaded Theme Engine & Account Manager**
 
 [![Python Version](https://img.shields.io/badge/python-3.8+-red.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
