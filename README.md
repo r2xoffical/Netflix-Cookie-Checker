@@ -1,5 +1,3 @@
-İstediğin tüm bölümleri ve şık görünümü koruyarak, kopyalamaya hazır tam metni aşağıda sunuyorum. Bunu bir metin belgesine yapıştırıp `.txt` olarak kaydedebilirsin.
-
 ```text
 # 🎬 Netflix Automation Tool v3.0 - Premium Theme Engine 🚀
 
